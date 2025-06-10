@@ -14,7 +14,7 @@ function About() {
                 age: 24,
                 company: 'umer zone'
             })
-        }, 2000);
+        }, 3000);
     })
     return (
         <p>
