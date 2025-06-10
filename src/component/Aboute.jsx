@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 
 function About() {
     const [second, setSecond] = useState({
-        name: 'shubham',
+        name: 'john',
         age: 22,
-        company: 'google'
+        company: 'insta'
     })
 
     useEffect(() => {
@@ -14,13 +14,13 @@ function About() {
                 age: 24,
                 company: 'umer zone'
             })
-        }, 3000);
+        }, 300);
     })
     return (
         <p>
-            <h1>{second.name}</h1>
-            <h1>{second.age}</h1>
-            <h1>{second.company}</h1>
+            <div>{second.name}</div>
+            <div>{second.company}</div>
+            <div>{second.age}</div>
         </p>
     )
 }
