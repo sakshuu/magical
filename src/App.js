@@ -1,10 +1,10 @@
 import React from 'react'
-import About from './component/Aboute'
+import Home from './component/Home'
 
 const App = () => {
   return <>
-    <h1>Varsha </h1>
-    <About />
+    <div>Varsha </div>
+    <Home />
   </>
 }
 

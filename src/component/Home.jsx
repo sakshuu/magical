@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Home() {
-    return (
+const Home = () => {
+    return <>
         <div>
             <nav class="navbar navbar-expand-lg bg-primary">
                 <div class="container-fluid">
@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </nav>
         </div>
-    )
+    </>
 }
 
 export default Home
