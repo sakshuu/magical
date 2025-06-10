@@ -10,18 +10,18 @@ function About() {
     useEffect(() => {
         setTimeout(() => {
             setFirst({
-                name: 'shubham',
-                age: 22,
-                company: 'google'
+                name: 'sakshi',
+                age: 24,
+                company: 'umer zone'
             })
         }, 2000);
     })
     return (
-        <div>
+        <p>
             <h1>{first.name}</h1>
             <h1>{first.age}</h1>
             <h1>{first.company}</h1>
-        </div>
+        </p>
     )
 }
 
