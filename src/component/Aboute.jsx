@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 function About() {
-    const [first, setFirst] = useState({
+    const [second, setSecond] = useState({
         name: 'shubham',
         age: 22,
         company: 'google'
@@ -9,7 +9,7 @@ function About() {
 
     useEffect(() => {
         setTimeout(() => {
-            setFirst({
+            setSecond({
                 name: 'sakshi',
                 age: 24,
                 company: 'umer zone'
@@ -18,9 +18,9 @@ function About() {
     })
     return (
         <p>
-            <h1>{first.name}</h1>
-            <h1>{first.age}</h1>
-            <h1>{first.company}</h1>
+            <h1>{second.name}</h1>
+            <h1>{second.age}</h1>
+            <h1>{second.company}</h1>
         </p>
     )
 }
