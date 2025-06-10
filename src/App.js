@@ -3,7 +3,7 @@ import About from './component/Aboute'
 
 const App = () => {
   return <>
-    <h1>sakshi</h1>
+    <div>Varsha </div>
     <About />
   </>
 }

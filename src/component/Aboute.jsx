@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from 'react'
 
 function About() {
-    const [first, setFirst] = useState({
-        name: 'shubham',
+    const [second, setSecond] = useState({
+        name: 'john',
         age: 22,
-        company: 'google'
+        company: 'insta'
     })
 
     useEffect(() => {
         setTimeout(() => {
-            setFirst({
+            setSecond({
                 name: 'sakshi',
                 age: 24,
                 company: 'umer zone'
             })
-        }, 3000);
+        }, 300);
     })
     return (
         <p>
-            <h1>{first.name}</h1>
-            <h1>{first.age}</h1>
-            <h1>{first.company}</h1>
+            <div>{second.name}</div>
+            <div>{second.company}</div>
+            <div>{second.age}</div>
         </p>
     )
 }
