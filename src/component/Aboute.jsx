@@ -1,28 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-function About() {
-    const [second, setSecond] = useState({
-        name: 'shubham',
-        age: 22,
-        company: 'google'
-    })
-
-    useEffect(() => {
-        setTimeout(() => {
-            setSecond({
-                name: 'sakshi',
-                age: 24,
-                company: 'umer zone'
-            })
-        }, 3000);
-    })
+function Home() {
     return (
-        <p>
-            <h1>{second.name}</h1>
-            <h1>{second.age}</h1>
-            <h1>{second.company}</h1>
-        </p>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand  text-white" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active  text-white" href="#">Home</a>
+                            <a class="nav-link  text-white" href="#">Features</a>
+                            <a class="nav-link  text-white" href="#">Pricing</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     )
 }
 
-export default About
+export default Home
